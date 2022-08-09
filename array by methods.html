@@ -1,0 +1,35 @@
+<html>
+<body>
+<h2 id="demo"></h2>
+<h2 id="c"></h2>
+<h2 id="p"></h2>
+<h2 id="l"></h2>
+<h2 id="k"></h2>
+<h2 id="g"></h2>
+<h2 id=""></h2>
+<script language ="javascript">
+m=[90,80,70];
+//to sort elements
+document.getElementById("demo").innerHTML=m.sort();
+//to join elements
+document.getElementById("c").innerHTML=m.join("*");
+//to add elements at last
+m.push("40");
+document.getElementById("p").innerHTML=m;
+//to delete last element
+m.pop()
+document.getElementById("l").innerHTML=m;
+//to remove first element
+m.shift()
+document.getElementById("k").innerHTML=m;
+//to add first element
+m.unshift("60");
+document.getElementById("g").innerHTML=m;
+//to concate 2 lists
+m1=[1,2,3];
+m2=[4,6,7];
+m3=m1.concat(" ",m2);
+document.getElementById("g").innerHTML=m3;
+</script>
+</body>
+</html>
