@@ -1,0 +1,43 @@
+<html>
+<head>
+<script>
+days=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+months=[1,2,3,4,5,6,7,8,9,10,11,12];
+//creation of Date object
+var d=new Date();
+document.write("<font color='green'>");
+document.write(d);
+document.write("</font>");
+//creation of Day object
+var day=d.getDay();
+document.write("<br><font color='red'>");
+document.write("Day is "+day+" "+days[day]);
+document.write("<br>");
+//getMonth(),getYear(),getHour(),getTime()...
+//creation of Month object
+var month=d.getMonth();
+document.write("<font color='green'>");
+document.write("month is "+months[month]);
+document.write("<br>");
+//creation of  Year object
+var year=d.getFullYear();
+document.write("<font color='red'>");
+document.write("year is "+year);
+document.write("<br>");
+//creation of Hour object
+var hour=d.getHours();
+document.write("<font color='green'>");
+document.write("hour is "+hour);
+document.write("<br>");
+//creation of Time object
+var time=d.getTime();
+document.write("<font color='red'>");
+document.write(" time is " +time);
+document.write("<br>");
+//creation of  Seconds object
+var seconds=d.getSeconds();
+document.write("<font color='green'>");
+document.write("seconds is " +seconds);
+document.write("<br>");
+</script>
+</html>
