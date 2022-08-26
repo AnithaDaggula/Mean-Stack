@@ -1,0 +1,18 @@
+<html>
+<body>
+<h2 id="demo"></h2>
+<script>
+function add(x,y,callback)
+{
+document.getElementById("demo").innerHTML=x+y;
+callback();
+}
+function f3()
+{
+document.write("i am from lbrce");
+}
+add(9,7,f3);
+</script>
+</body>
+</html>
+
